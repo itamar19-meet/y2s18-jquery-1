@@ -5,17 +5,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-color: red">
     <p>Size (0 - 400px):</p>
-    <input type="range" min="0" max="400" value="100" class="slider" id="sizeSlider" oninput="updateSize(this.value)">
+    <input type="range" min="0" max="400" value="100" class="slider" id="sizeSlider" oninput="updateSize(this.value)" >
     <p>X (0 - 360deg):</p>
     <input type="range" min="0" max="360" value="0" class="slider" id="xSlider" oninput="updateXRotation(this.value)">
     <p>Y (0 - 360deg):</p>
     <input type="range" min="0" max="360" value="0" class="slider" id="ySlider" oninput="updateYRotation(this.value)">
     <p>Z (0 - 360deg):</p>
-    <input type="range" min="0" max="360" value="0" class="slider" id="zSlider" oninput="updateZRotation(this.value)">
+    <input type="range" min="-180" max="180" value="0" class="slider" id="zSlider" oninput="updateZRotation(this.value)">
 
-    <img src="./meet-logo.png" id="logo" width="100px">
+    <img src="./meet-logo.png" id="imm" width="100px" >
 
     <!-- PLEASE DO NOT ADD ANY JAVASCRIPT CODE HERE! :) -->
     <script src="jquery.js"></script>

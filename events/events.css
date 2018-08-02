@@ -1,4 +1,4 @@
-#moveButton {
+#movee {
     position: fixed;
     /* START CENTERING ON PAGE TRICK */
     top: 50%;
@@ -9,7 +9,7 @@
     height: 50px;
 }
 
-#message {
+#mas{
     position: fixed;
     top: 20px;
     left: 20px;

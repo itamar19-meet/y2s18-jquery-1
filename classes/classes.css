@@ -4,16 +4,19 @@
         2. All capital letters
         3. BOLD
     */
+    font-weight: bold;
+    font-size: 75px;
+    text-transform: uppercase;
 }
 
 .hidden {
-    /* FINISH ME! Add properties and values to make the text
-        1. Not display on the screen.
-    */
+  display: none;
 }
 
 .rotated {
     /* FINISH ME! Add properties and values to make the text
         1. Rotate 180 degrees.
     */
+    -moz-transform: rotate(-180deg);
 }
+

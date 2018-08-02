@@ -6,14 +6,23 @@
 </head>
 
 <body>
-    <!-- TODO: Add a button here with id of "bigButton" -->
+<button type="button" id="rotate">rotate</button>
+<button type="button" id="big">increase size</button>
+<button type="button" id="hide">hide</button>
+<p id="mes">I can change size! I can rotate! I can disappear!</p>
+<br>
+<h3>red</h3> <br>
+<input type="range" min="0" max="255" value="50" class="slider" id="red" oninput="reddish(this.value)">
+<br>
+<h3>green</h3>
+<br>
 
-    <!-- TODO: Add a button here with id of "hideButton" -->
+<input type="range" min="0" max="255" value="50" class="slider" id="green" oninput="greenish(this.value)">
+<br>
+<h3>blue</h3>
+<br>
+<input type="range" min="0" max="255" value="50" class="slider" id="blue"oninput="blueish(this.value)">
 
-    <!-- TODO: Add a button here with id of "rotateButton" -->
-
-
-    <p id="message">I can change size! I can rotate! I can disappear!</p>
 
     <!-- PLEASE DO NOT ADD ANY JAVASCRIPT CODE HERE! :) -->
     <script src="jquery.js"></script>
